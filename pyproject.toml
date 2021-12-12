@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rest-framwork"
+version = "0.1.0"
+description = ""
+authors = ["yousef-alramli <ysabdys1996@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = ">=3.2"
+black = "^21.12b0"
+flake8 = "^4.0.1"
+pytz = "^2021.3"
+djangorestframework = "^3.12.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
